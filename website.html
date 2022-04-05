@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: rgb(228, 56, 56);
+  background-color:none;
+}
+footer{
+position: fixed;
+   bottom:0;
+   width:100%;
+   height: 100px;   /* Height of the footer */
+   border: 1px solid #e7e7e7;
+ background-color: #f3f3f3;
+   margin-left: -10px;
+   margin-right: -15px;
+}
+
+.card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          width: 20%;
+          height: 40%;
+          margin-left: 3px;
+          margin-right: 30px;
+          position: relative;
+          display: block;
+          margin-top: 90px;
+          overflow: visible;
+          background-color:rgb(252, 252, 252);
+        }
+        
+        .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        
+        .container {
+          top: 10;
+          padding: 2px 16px;
+          height: 6cm;
+          right: 20%;
+          background-image: url("food2.jpg");
+          background-repeat: no-repeat;
+          background-size: 280px 300px;
+        }
+        aside{
+          font-style: italic;
+          margin-left: 500px;
+          margin-top: -300px;
+        }
+        h2{
+          font-style: italic;
+          margin-top: 2px;
+          margin-left: 180px;
+        }
+        h4{
+          margin-top: 240px;
+          margin-right: 3px;
+          font-weight: lighter;
+        }
+        input[type="submit"]{
+        background-color:rgb(24, 181, 233);
+        height: 30px;
+        width: 10.2%;
+        font-weight: bold;
+        margin-left: 135px;
+        margin-top: 28px;
+        }
+
+
+</style>
+
+<body>
+    <ul>
+        
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul> 
+      
+      <section>
+          <div class="card">
+            <div class="container">
+                <h2>Pizaa</h2>
+                <h4>Price:tsh 5000</h4><br>
+              </div>
+          </div>
+      </section>
+      <section>
+        <input type= "submit" value ="Add to cart"><br>
+      </section>
+      
+</body>
+<footer>
+    <b><p>Created by Jerrys</p></b>
+</footer>
+</html>

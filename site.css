@@ -1,0 +1,65 @@
+label{
+float: left;
+}
+input[type="text"]{
+float: unset;
+    width: 90%;
+position: relative;
+size: 100ch;
+height: 5%;
+}
+input[type="submit"]{
+background-color:gray;
+height:7%;
+width: 93%;
+font-weight: bold;
+
+}
+
+body{
+    background-color: snow;
+}
+footer{
+    background-color: steelblue;
+    position: absolute;
+    bottom: 0;
+    width: 100cm;
+    height: 9rem;
+}
+header{
+    top: 0;
+    position: fixed;
+    width: 100cm;
+    background-color: steelblue;
+    height: 10rem;
+}
+.topnav{
+    overflow: hidden;
+
+}
+.topnav a {
+float: right;
+text-align: center;
+font-size: 17px;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 80%;
+    margin-top:140px;
+    margin-right: 5px;
+    margin-left: 500px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    height: 12cm;
+    right: 50%;
+    font-weight: bold;
+  }
